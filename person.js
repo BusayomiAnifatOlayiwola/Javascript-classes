@@ -52,7 +52,12 @@ princeLeo.dance = function(){
     console.log('disco')
 }
 
+// princeLeo.sleep(){
+//     console.log('sleep all night')
+// }
+
 princeLeo.jump()
+princeLeo.dance()
 princeLeo.addArtist('Rico Nasty')
 princeLeo.addArtist('yeye')
 
