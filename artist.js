@@ -25,10 +25,12 @@ class Artist {
 
     addImage(imageLink){
         this.image = imageLink
+        console.log(`This is another ${imageLink} for ${this.name}`)
     }
 
     addIG(username){
         this.instagram = username
+        console.log(`This is another ${username} for ${this.name}`)
     }
 }
 
@@ -36,7 +38,14 @@ class Artist {
 const davido = new Artist('Davido', '30', 'hiphop', 'cash money record')
 davido.addAlbum('A Good Time') 
 davido.addAlbum('Omo Baba Olowo')
-], ['1 Milli', 'Get to You'], '')
+davido.addSong('1 Milli')
+davido.addSong('Get to You')
+
+davido.addImage('https://www.rollingstone.com/music/music-features/davido-endsars-better-time-interview-1084079/')
+davido.addIG('https://www.instagram.com/davidhandlermusic/?hl=en')
+
+
+
 const drake = new Artist('Drake', '33', 'hiphop', 'cash money records')
 const hozier = new Artist('Hozier', '34', 'Rock', 'cash money records')
 const carlCox = new Artist('Carl Cox', '30', 'House', 'cash money records')
@@ -57,4 +66,4 @@ const carlCox = new Artist('Carl Cox', '30', 'House', 'cash money records')
 
 //https://www.rollingstone.com/music/music-features/davido-endsars-better-time-interview-1084079/
 
-https://www.instagram.com/davidhandlermusic/?hl=en
+//https://www.instagram.com/davidhandlermusic/?hl=en
